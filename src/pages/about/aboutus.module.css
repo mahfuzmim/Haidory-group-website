@@ -1,0 +1,42 @@
+.companyslides {
+  background: #ffffff;
+  box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+  border-radius: 14px;
+  padding: 19px;
+  min-height: 120px;
+  float: left;
+  width: 100%;
+  /* padding-top: 100px; */
+  border: dashed 1px #9fafb9;
+}
+
+.companyslideimgmd {
+  background: #ffffff;
+  box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+  border-radius: 14px;
+  padding: 19px;
+  min-height: 120px;
+  float: left;
+  width: 70%;
+  /* padding-top: 100px; */
+  border: dashed 1px #9fafb9;
+  margin-top: 6.5rem;
+  margin-left: 8rem;
+}
+
+@media (min-width: 200px) and (max-width: 1150px) {
+  .companyslideimgmd {
+    background: #ffffff;
+    box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+    border-radius: 14px;
+    padding: 19px;
+    min-height: 120px px;
+    float: left;
+    width: 100%;
+    /* padding-top: 100px; */
+    border: dashed 1px #9fafb9;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}

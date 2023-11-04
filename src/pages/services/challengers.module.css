@@ -1,0 +1,35 @@
+.challengerscompanyslide {
+  margin-top: 1rem;
+  background: #ffffff;
+  box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+  border-radius: 14px;
+  padding: 19px;
+  min-height: 120px;
+  float: left;
+  width: 100%;
+  /* padding-top: 100px; */
+  border: dashed 1px #9fafb9;
+}
+
+.challengersicons {
+  width: 78px;
+  height: 78px;
+  background: #fff;
+  border-radius: 100px;
+  border: solid 7px #ebf6f6;
+  font-size: 46px;
+  color: #f28c36;
+  /* margin-top: 26px; */
+  text-align: center;
+  line-height: 1;
+  margin: auto;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .challengersicons {
+    width: 78px;
+    height: 78px;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,65 @@
+.kanizbannersection {
+  width: 100%;
+  min-height: 520px;
+
+  position: relative;
+  background: url(../../assets/images/kaniz-banner.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+section.kanizbannersection:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Adjust the color and opacity as needed */
+  /* Place the overlay above the image (you can adjust this value) */
+}
+
+.challengerscompanyslide {
+  margin-top: 2rem;
+  background: #ffffff;
+  box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+  border-radius: 14px;
+  padding: 19px;
+  min-height: 120px;
+  float: left;
+  width: 100%;
+  /* padding-top: 100px; */
+  border: dashed 1px #9fafb9;
+}
+
+.challengersicons {
+  width: 78px;
+  height: 82px;
+  background: #fff;
+  border-radius: 100px;
+  border: solid 7px #ebf6f6;
+  font-size: 46px;
+  color: #f28c36;
+  margin-top: 26px;
+  text-align: center;
+  line-height: 1;
+  margin: auto;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .kanizbannersection {
+    min-height: 250px;
+  }
+  .challengersicons {
+    width: 78px;
+    height: 78px;
+    background: #fff;
+    border-radius: 100px;
+    border: solid 7px #ebf6f6;
+    font-size: 36px;
+    color: #f28c36;
+    margin-top: 26px;
+    text-align: center;
+    line-height: 1.5;
+    margin: auto;
+  }
+}

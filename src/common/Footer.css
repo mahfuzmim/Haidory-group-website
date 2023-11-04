@@ -1,0 +1,142 @@
+.footer-area {
+  width: 100%;
+  float: left;
+  /* margin-top: 30px; */
+}
+.all-company-feature p {
+  text-align: justify;
+}
+img.footerlogo {
+  width: 97%;
+  object-fit: cover;
+}
+.text-gray {
+  color: #999;
+}
+.company-list-link li {
+  width: 100%;
+  margin-top: 5px;
+  color: #7e7e7e;
+}
+.company-list-link li a {
+  color: #7e7e7e;
+}
+.company-list-link li span {
+  width: 20px;
+  float: left;
+  color: #eca109;
+  font-size: 18px;
+}
+.company-list-link li label {
+  width: 87%;
+  float: left;
+  /* border: solid; */
+  margin: 3px 4px;
+}
+
+.swiftlink:hover {
+  color: #eca109 !important;
+}
+
+.social-icon {
+  width: 100%;
+  float: left;
+  margin-top: 36px;
+  direction: rtl;
+}
+.social-icon button {
+  color: #cecece;
+  border: solid 1px #cecece;
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  margin-right: 13px;
+  text-align: center;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.social-icon button:hover {
+  background: #5a7bdf;
+  color: #fff;
+}
+.footer-bottom p {
+  font-size: 15px;
+  margin-top: 42px;
+}
+.footer-bottom ul {
+  display: flex;
+  direction: rtl;
+  margin-top: 42px;
+}
+.footer-bottom ul li {
+  padding-left: 31px;
+  font-size: 15px;
+}
+.footer-bottom ul li a {
+  color: #999;
+}
+.jus-text {
+  text-align: justify;
+}
+h3 {
+  position: relative;
+}
+.list-inline ul li a:hover {
+  color: #eca109 !important;
+}
+
+img.flag {
+  position: absolute;
+  width: 27px;
+  height: 20px;
+  object-fit: cover;
+  /* border-radius: 60px; */
+  left: -35px;
+  top: 4px;
+}
+.social-icon a {
+  color: #cecece;
+}
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #5de6de;
+  background-image: linear-gradient(180deg, #f3d79d 0%, #d79207 100%);
+  border: none;
+  border-radius: 12px 12px 0 0;
+  transition: 200ms;
+}
+.back-to-top svg {
+  fill: white;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+.back-to-top:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  img.flag {
+    position: relative;
+    left: -11px;
+    top: 0px;
+  }
+
+  .company-list-link {
+    width: 100%;
+    margin-bottom: 40px !important;
+  }
+  .social-icon {
+    margin-top: 6px;
+    direction: ltr;
+    margin-bottom: 20px;
+  }
+  .footer-bottom p {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+}

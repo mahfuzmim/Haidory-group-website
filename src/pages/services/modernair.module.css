@@ -1,0 +1,57 @@
+.modernbannersection {
+  width: 100%;
+  min-height: 520px;
+
+  position: relative;
+  background: url(../../assets/images/modern-banner.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+section.modernbannersection:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Adjust the color and opacity as needed */
+  /* Place the overlay above the image (you can adjust this value) */
+}
+
+.challengerscompanyslide {
+  margin-top: 1rem;
+  background: #ffffff;
+  box-shadow: 2px 0px 20px 8px rgb(185 197 205 / 21%);
+  border-radius: 14px;
+  padding: 19px;
+  min-height: 120px;
+  float: left;
+  width: 100%;
+  /* padding-top: 100px; */
+  border: dashed 1px #9fafb9;
+}
+
+.altayabaicon {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 100px;
+  border: solid 7px #ebf6f6;
+  font-size: 46px;
+  color: #f28c36;
+  text-align: center;
+  margin: auto;
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .modernbannersection {
+    min-height: 250px;
+  }
+  .altayabacompanyslide {
+    margin-bottom: 5px;
+  }
+  .altayabaicon {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+  }
+}
